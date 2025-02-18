@@ -1,0 +1,15 @@
+[project]
+name = "image-manipulation"
+description = "Custom nodes to manipulate images in ComfyUI"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["pillow>=10.3.0", "numpy>=1.18.5", "torch"]
+
+[project.urls]
+Repository = "https://github.com/Hellfiredragon/comfyui-image-manipulation"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui-image-manipulation"
+Icon = ""
